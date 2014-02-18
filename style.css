@@ -1,0 +1,13 @@
+/* style.css - a simple style sheet */
+
+ html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0; background-color: green; color: black; text-align: center;
+	  font-family: Calibri, sans-serif; font-size: small;}
+      #map-canvas { height: 90%; width 80%; border: 1px solid #000;}
+ h1 (margin-left: -8%; 
+font-size: 200% font-family: Impact, sans-serif;}
+h2,h3,h4,h5, h6 {margin-left: -4%;
+ margin-top: 8em; 
+margin-bottom: 3em; 
+font-size: 150%;
+font-family: Impact, sans-serif;}
