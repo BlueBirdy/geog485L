@@ -69,6 +69,7 @@ font-family: Impact, sans-serif;}
     };
     var map = new google.maps.Map(document.getElementById("map_canvas"),
         myOptions);
+	setMarkers(map, favPlaces);
   }
 </script>
 <script type="text/javascript">
@@ -98,7 +99,9 @@ font-family: Impact, sans-serif;}
 		point: new google.maps.LatLng(35.1906345, -106.4793087),
 		label: "Sandia Peak Ski and Tramway"
 	}
-]
+];
+
+function setMarkers (map, locations) 
 </script>
 </head>
 
